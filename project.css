@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Dongle&family=Mulish:wght@200;300&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    min-height: 100vh;
+    background: linear-gradient(
+        45deg
+        , rgb(106, 120, 209), rgb(0, 164, 189));
+}
+.container {
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+    font-size:  25px;
+}
+nav{
+    background: black;
+    color: #fff;
+    padding: 1rem ;    
+}
+
+section.input{
+    padding-top: 100px;
+}
+
+h2{
+    text-align: center;
+    font-style: 36px;
+}
+.form_warp{
+    display: flex;
+    justify-content: center;
+}
+.input_warp{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    
+}
+
+input{
+    border: none;
+    padding: 10px;
+    font-size:  16px;
+    min-width: 400px;
+    outline: none;
+    background: transparent;
+    font-family: 'Baloo Da 2', cursive;
+}
+button{
+    background: -webkit-linear-gradient(
+45deg
+, #c859ff 0%, #ffab8c 100%);
+    color: rgb(0, 0, 0);
+    height: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-family: 'Baloo Da 2', cursive;
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.loading{
+    display: none;
+}
+section.data p.def{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.suggested{
+    background-color: #B794F4;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.audio{
+    margin-top: 20px;
+}
+
+
